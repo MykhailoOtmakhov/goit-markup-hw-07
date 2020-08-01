@@ -110,7 +110,17 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px; 
-    resize:none;      
+    resize:none;  
+    
+    &-label{
+        position: absolute;
+        left: 16px;
+        top: 12px;
+        margin-bottom: 4px;
+        font-size: 14px;
+        color: #757575;
+        transition: transform 250ms;    
+    }
 }
 
 .comment:focus{
