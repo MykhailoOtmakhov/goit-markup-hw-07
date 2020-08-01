@@ -1,0 +1,33 @@
+.join{
+    padding-top: 72px;
+    margin-left: 69px;
+
+    &-title{
+        font-weight: bold;
+        line-height: 1.14;
+        text-transform: uppercase;    
+        color: #FFFFFF;
+    }
+
+    &-list{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;  
+
+        & li{
+            width: 44px;
+            height: 44px;
+            margin-right: 10px;
+        }
+    }
+
+    &-item{
+        margin-right: 10px;
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
+
